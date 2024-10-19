@@ -15,6 +15,7 @@ class TaskManagerApp:
         self.root.geometry("600x400")
         self.root.resizable(False, False)
         self.root.config(bg="#2e2e2e")
+        root.iconbitmap("icon.ico")
 
         self.selected_task_name = None
         self.task_data = None
